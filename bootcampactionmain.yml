@@ -34,4 +34,6 @@ jobs:
     - name: deploying using surge
       run: surge ./ overt-verse.surge.sh --token ${{secret.surge_token}}
       
+      {{
+      
       
